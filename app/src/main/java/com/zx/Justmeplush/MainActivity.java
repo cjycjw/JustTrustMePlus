@@ -1,13 +1,12 @@
 package com.zx.Justmeplush;
 
-import android.Manifest;
 import android.content.Intent;
 import android.content.pm.ApplicationInfo;
 import android.content.pm.PackageInfo;
 import android.content.pm.PackageManager;
 import android.net.Uri;
-import android.net.wifi.WifiManager;
-import android.support.v7.app.AppCompatActivity;
+
+import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.CheckBox;
 import android.widget.ListView;
@@ -15,7 +14,6 @@ import android.widget.Toolbar;
 
 import com.zx.Justmeplush.Bean.AppBean;
 import com.zx.Justmeplush.adapter.MainListViewAdapter;
-import com.zx.Justmeplush.utils.PermissionUtils;
 
 import java.util.ArrayList;
 import java.util.List;
