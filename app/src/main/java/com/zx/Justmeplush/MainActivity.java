@@ -10,14 +10,13 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.CheckBox;
 import android.widget.ListView;
-import android.widget.Toolbar;
+import androidx.appcompat.widget.Toolbar;
 
 import com.zx.Justmeplush.Bean.AppBean;
 import com.zx.Justmeplush.adapter.MainListViewAdapter;
 
 import java.util.ArrayList;
 import java.util.List;
-
 public class MainActivity extends AppCompatActivity {
 
     private ListView mLv_list;

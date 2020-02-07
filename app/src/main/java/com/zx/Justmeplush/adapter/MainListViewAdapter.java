@@ -88,15 +88,6 @@ public class MainListViewAdapter extends BaseAdapter {
         ToastUtils.showToast(App.getContext(),"保存成功"+"   " +data.get(position).packageName );
     }
 
-
-
-
-
-
-
-
-
-
     private static class ViewHolder {
         TextView tv_appName, tv_packageName;
         LinearLayout All;

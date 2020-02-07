@@ -63,14 +63,6 @@ public class Constants {
         return false;
     }
 
-
-
-
-
-
-
-
-
     public static String getPackageName(Context context) throws PackageManager.NameNotFoundException {
         PackageInfo pInfo = context.getPackageManager().getPackageInfo(context.getPackageName(), 0);
         return pInfo.packageName;
@@ -88,7 +80,6 @@ public class Constants {
         }
         return -1;
     }
-
 
 
 
